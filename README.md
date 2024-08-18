@@ -14,4 +14,10 @@ The project is implemented in two approaches, all of which are explained in the 
    Clone the project repository using Git:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ZeusCoderBE/Named-Entity-Recognition-and-Text-to-Speech.git
+
+   
+   Install the Required Packages
+   ```bash
+   pip install -r requirements.txt
+
