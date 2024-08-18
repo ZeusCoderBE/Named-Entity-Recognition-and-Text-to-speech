@@ -18,6 +18,7 @@ The project is implemented in two approaches, all of which are explained in the 
 
    
    Install the Required Packages
+   
    ```bash
    pip install -r requirements.txt
 
