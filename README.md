@@ -15,10 +15,10 @@ The project is implemented in two approaches, all of which are explained in the 
 
    ```bash
    git clone https://github.com/ZeusCoderBE/Named-Entity-Recognition-and-Text-to-Speech.git
-
+    ```
    
    Install the Required Packages
    
    ```bash
    pip install -r requirements.txt
-
+    ```
