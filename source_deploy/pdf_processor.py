@@ -37,7 +37,7 @@ class PDFProcessor:
         if not os.path.isfile(pdf_path):
             raise FileNotFoundError(f"{pdf_path} không tồn tại hoặc không phải là tệp.")
         with pdfplumber.open(pdf_path) as pdf:
-            for i in range(min(len(pdf.pages), 10)):
+            for i in range(min(len(pdf.pages), 3)):
                 page = pdf.pages[i]
                 lines = page.extract_text().splitlines()
                 for line in lines[:lines_to_read]:
