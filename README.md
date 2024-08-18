@@ -17,8 +17,12 @@ The project is implemented in two approaches, all of which are explained in the 
    git clone https://github.com/ZeusCoderBE/Named-Entity-Recognition-and-Text-to-Speech.git
     ```
    
-   Install the Required Packages
-   
+ 2. **Install the Required Packages**
    ```bash
    pip install -r requirements.txt
-    ```
+   ```
+
+ 3. **Run app**
+   ```bash
+   python app.py
+   ```
