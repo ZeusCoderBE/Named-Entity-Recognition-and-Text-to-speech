@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extracted Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Extracted Information from {{ file_name }}</h1>
-    <h2>Names:</h2>
-    <ul>
-        {% for name in names %}
-        <li>{{ name }}</li>
-        {% endfor %}
-    </ul>
-    <h2>Emails:</h2>
-    <ul>
-        {% for email in emails %}
-        <li>{{ email }}</li>
-        {% endfor %}
-    </ul>
-    <a href="{{ url_for('upload_file') }}">Upload another file</a>
+    <div class="container">
+        <h1>Extracted Information from {{ file_name }}</h1>
+        <h2>Names:</h2>
+        <ul>
+            {% for name in names %}
+            <li>{{ name }}</li>
+            {% endfor %}
+        </ul>
+        <h2>Emails:</h2>
+        <ul>
+            {% for email in emails %}
+            <li>{{ email }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('upload_file') }}">Upload another file</a>
+    </div>
 </body>
 </html>
