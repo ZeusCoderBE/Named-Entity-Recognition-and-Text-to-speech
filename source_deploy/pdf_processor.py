@@ -6,7 +6,7 @@ from unidecode import unidecode
 
 class PDFProcessor:
     def __init__(self):
-        self.nlp = spacy.load("en_core_web_lg")
+        self.nlp = spacy.load("en_core_web_sm")
         self.family_names = [
             'nguyen', 'tran', 'le', 'pham', 'vu', 'hoang', 'ngo', 'dang', 'bui', 'duong',
             'do', 'ha', 'dao', 'ly', 'ho', 'cao', 'van', 'to',
