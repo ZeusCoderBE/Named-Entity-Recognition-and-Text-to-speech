@@ -32,7 +32,7 @@ class PDFProcessor:
         surname = parts[0]
         return surname in self.family_names
 
-    def extract_text_from_pdf(self, pdf_path, lines_to_read=20):
+    def extract_text_from_pdf(self, pdf_path, lines_to_read=50):
         text = ""
         if not os.path.isfile(pdf_path):
             raise FileNotFoundError(f"{pdf_path} không tồn tại hoặc không phải là tệp.")
