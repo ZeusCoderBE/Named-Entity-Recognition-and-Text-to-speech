@@ -10,9 +10,6 @@ The project is implemented in two approaches, all of which are explained in the 
 ## Installation Instructions
 
 1. **Download the Project**
-
-   Clone the project repository using Git:
-
    ```bash
    git clone https://github.com/ZeusCoderBE/Named-Entity-Recognition-and-Text-to-Speech.git
     ```
